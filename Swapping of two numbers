@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+float x, y, z;
+printf("Enter the first number = ");
+scanf("%f", &x);
+printf("Enter the second number = ");
+scanf("%f", &y);
+z = x;
+x = y;
+y = z;
+printf("The first number = %f\n", x);
+printf("The second number = %f\n", y);
+return 0;
+}
