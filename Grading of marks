@@ -1,0 +1,9 @@
+#include<studio.h>
+int main()
+{
+double x;
+printf("Enter the Marks scored =");
+scanf("%1f", &x);
+printf("%s", x>84?"Grade A":(x>69?"Grade B":(x>54?"Grade C":(x>39?"Grade D":"Grade F"))));
+return 0;
+}
