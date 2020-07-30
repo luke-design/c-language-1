@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int i=0, n=1234, m;
-	printf("1234\n");
+	int i=0, n, m;
+	printf("enter a number: \n");
+	scanf("%d\n", &n);
 	while(n>0)
 	{
 		m=n%10;
